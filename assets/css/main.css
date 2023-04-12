@@ -3,15 +3,10 @@
 
 @font-face {
 	font-family: "AndreaCustom";
-	src: url(../webfonts/CustomIcons.woff) format("woff");
+	src: url(../webfonts/CustomIcons.ttf) format("truetype"), url(../webfonts/CustomIcons.woff) format("woff");
 	font-style: normal;
 	font-display: block;
 	font-weight: 400;
-}
-
-.custom-icon-tableau:before {
-	content: "A";
-	font-family: "AndreaCustom";
 }
 
 /*
@@ -2228,4 +2223,10 @@ input, select, textarea {
 				margin-left: 0.5em;
 			}
 
+		}
+
+		.custom-icon-tableau:before {
+			content: "A";
+			font-family: "AndreaCustom";
+			font-weight: 400;
 		}
