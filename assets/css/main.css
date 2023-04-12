@@ -3,7 +3,7 @@
 
 @font-face {
 	font-family: "AndreaCustom";
-	src: url(../webfonts/CustomIcons.ttf) format("truetype"), url(../webfonts/CustomIcons.woff) format("woff");
+	src: url(../webfonts/CustomIcons.woff) format("woff"), url(../webfonts/CustomIcons.ttf) format("truetype");
 	font-style: normal;
 	font-display: block;
 	font-weight: 400;
